@@ -16,3 +16,5 @@ steps:
         "push",
         "northamerica-south1-docker.pkg.dev/microservices-shop-500412/image-registry/client-gateway",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
